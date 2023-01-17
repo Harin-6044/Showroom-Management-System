@@ -492,9 +492,9 @@ void custport()
  {
   delay(20);
   textcolor(13);
-  gotoxy(i,18);cprintf("      …ÕÕÕÕª       ");
-  gotoxy(i,19);cprintf("   …ÕÕº    »Õª     ");
-  gotoxy(i,20);cprintf("   »ÕoÕÕÕÕooÕº     ");
+  gotoxy(i,18);cprintf("      √â√ç√ç√ç√ç¬ª       ");
+  gotoxy(i,19);cprintf("   √â√ç√ç¬º    √à√ç¬ª     ");
+  gotoxy(i,20);cprintf("   √à√ço√ç√ç√ç√çoo√ç¬º     ");
  }
  textcolor(13);
  gotoxy(48,19);cin>>opt1;
@@ -696,9 +696,9 @@ void admlog()
   {
    delay(20);
    textcolor(13);
-   gotoxy(i,18);cprintf("      …ÕÕÕÕª       ");
-   gotoxy(i,19);cprintf("   …ÕÕº    »Õª     ");
-   gotoxy(i,20);cprintf("   »ÕoÕÕÕÕooÕº     ");
+   gotoxy(i,18);cprintf("      √â√ç√ç√ç√ç¬ª       ");
+   gotoxy(i,19);cprintf("   √â√ç√ç¬º    √à√ç¬ª     ");
+   gotoxy(i,20);cprintf("   √à√ço√ç√ç√ç√çoo√ç¬º     ");
   }
   textcolor(13);
   gotoxy(48,19);cin>>opt1;
@@ -746,18 +746,18 @@ void output1()
   textcolor(11);
   textbackground(9);
   delay(50);
-  gotoxy(i,5);  cputs(" €€€€€€€€€€                                                              ");
-  gotoxy(i,6);  cputs(" €€      €€                                                              ");
-  gotoxy(i,7);  cputs(" €€              ‹‹‹‹ ‹‹‹‹ ‹‹‹‹ ‹‹‹‹ ‹‹‹‹ ‹‹‹‹‹                      ");
-  gotoxy(i,8);  cputs(" €€              €    €  € €  € €    €      €                        ");
-  gotoxy(i,9);  cputs(" €€              € ‹‹ €€ﬂﬂ €  € € ‹‹ €ﬂﬂﬂ   €                        ");
-  gotoxy(i,10); cputs(" €€   €€€€€€€€   €‹‹€ € ﬂ‹ €‹‹€ €‹‹€ €‹‹‹   €                        ");
-  gotoxy(i,11); cputs(" €€   ﬂ  €€  ﬂ                                                           ");
-  gotoxy(i,12); cputs(" €€      €€            ‹‹‹‹‹ ‹‹‹‹ ‹   ‹ ‹‹‹‹‹ ‹‹‹‹‹ ‹‹‹‹ ‹‹‹‹    ");
-  gotoxy(i,13); cputs(" €€€€€€€€€€              €   €    €ﬂª €   €     €   €  € €       ");
-  gotoxy(i,14); cputs("         €€              €   € ‹‹ € ﬂª€   €     €   €  € ﬂﬂﬂ€    ");
-  gotoxy(i,15); cout<<"      ‹  €€  ‹         ‹‹€‹‹ €‹‹€ €  ﬂ€ ‹‹€‹‹   €   €‹‹€ ‹‹‹€     ";
-  gotoxy(i,16); cout<<"      €€€€€€€€                                                            ";
+  gotoxy(i,5);  cputs(" √õ√õ√õ√õ√õ√õ√õ√õ√õ√õ                                                              ");
+  gotoxy(i,6);  cputs(" √õ√õ      √õ√õ                                                              ");
+  gotoxy(i,7);  cputs(" √õ√õ              √ú√ú√ú√ú √ú√ú√ú√ú √ú√ú√ú√ú √ú√ú√ú√ú √ú√ú√ú√ú √ú√ú√ú√ú√ú                      ");
+  gotoxy(i,8);  cputs(" √õ√õ              √õ    √õ  √õ √õ  √õ √õ    √õ      √õ                        ");
+  gotoxy(i,9);  cputs(" √õ√õ              √õ √ú√ú √õ√õ√ü√ü √õ  √õ √õ √ú√ú √õ√ü√ü√ü   √õ                        ");
+  gotoxy(i,10); cputs(" √õ√õ   √õ√õ√õ√õ√õ√õ√õ√õ   √õ√ú√ú√õ √õ √ü√ú √õ√ú√ú√õ √õ√ú√ú√õ √õ√ú√ú√ú   √õ                        ");
+  gotoxy(i,11); cputs(" √õ√õ   √ü  √õ√õ  √ü                                                           ");
+  gotoxy(i,12); cputs(" √õ√õ      √õ√õ            √ú√ú√ú√ú√ú √ú√ú√ú√ú √ú   √ú √ú√ú√ú√ú√ú √ú√ú√ú√ú√ú √ú√ú√ú√ú √ú√ú√ú√ú    ");
+  gotoxy(i,13); cputs(" √õ√õ√õ√õ√õ√õ√õ√õ√õ√õ              √õ   √õ    √õ√ü¬ª √õ   √õ     √õ   √õ  √õ √õ       ");
+  gotoxy(i,14); cputs("         √õ√õ              √õ   √õ √ú√ú √õ √ü¬ª√õ   √õ     √õ   √õ  √õ √ü√ü√ü√õ    ");
+  gotoxy(i,15); cout<<"      √ú  √õ√õ  √ú         √ú√ú√õ√ú√ú √õ√ú√ú√õ √õ  √ü√õ √ú√ú√õ√ú√ú   √õ   √õ√ú√ú√õ √ú√ú√ú√õ     ";
+  gotoxy(i,16); cout<<"      √õ√õ√õ√õ√õ√õ√õ√õ                                                            ";
 
   gotoxy(50-i,19);cout<<" NoThInG BeAtS LuXuRy.... ";
   delay(50);
@@ -776,19 +776,19 @@ void output2()
  for(int i=1;i<9;i++)
  {
   delay(50);
-  gotoxy(i+2,7);  cputs(" €       €  €ﬂﬂﬂﬂﬂ  €           ");
-  gotoxy(i+2,8);  cputs(" €       €  €       €           ");
-  gotoxy(i+2,9);  cputs(" €       €  €       €           ");
-  gotoxy(i+2,10); cputs(" €   €   €  €ﬂﬂﬂﬂﬂ  €           ");
-  gotoxy(i+2,11); cputs(" € ‹ﬂ ﬂ‹ €  €       €           ");
-  gotoxy(i+2,12); cputs(" €€     €€  €‹‹‹‹‹  €‹‹‹‹‹‹     ");
+  gotoxy(i+2,7);  cputs(" √õ       √õ  √õ√ü√ü√ü√ü√ü  √õ           ");
+  gotoxy(i+2,8);  cputs(" √õ       √õ  √õ       √õ           ");
+  gotoxy(i+2,9);  cputs(" √õ       √õ  √õ       √õ           ");
+  gotoxy(i+2,10); cputs(" √õ   √õ   √õ  √õ√ü√ü√ü√ü√ü  √õ           ");
+  gotoxy(i+2,11); cputs(" √õ √ú√ü √ü√ú √õ  √õ       √õ           ");
+  gotoxy(i+2,12); cputs(" √õ√õ     √õ√õ  √õ√ú√ú√ú√ú√ú  √õ√ú√ú√ú√ú√ú√ú     ");
 
-  gotoxy(45-i,7);  cputs("  €ﬂﬂﬂﬂﬂ  €ﬂﬂﬂﬂﬂ€  €€     €€  €ﬂﬂﬂﬂﬂ      \n");
-  gotoxy(45-i,8);  cputs("  €       €     €  € ﬂ‹ ‹ﬂ €  €           \n");
-  gotoxy(45-i,9);  cputs("  €       €     €  €   €   €  €           \n");
-  gotoxy(45-i,10); cputs("  €       €     €  €       €  €ﬂﬂﬂﬂﬂ      \n");
-  gotoxy(45-i,11); cputs("  €       €     €  €       €  €           \n");
-  gotoxy(45-i,12); cputs("  €‹‹‹‹‹  €‹‹‹‹‹€  €       €  €‹‹‹‹‹    \n\n");
+  gotoxy(45-i,7);  cputs("  √õ√ü√ü√ü√ü√ü  √õ√ü√ü√ü√ü√ü√õ  √õ√õ     √õ√õ  √õ√ü√ü√ü√ü√ü      \n");
+  gotoxy(45-i,8);  cputs("  √õ       √õ     √õ  √õ √ü√ú √ú√ü √õ  √õ           \n");
+  gotoxy(45-i,9);  cputs("  √õ       √õ     √õ  √õ   √õ   √õ  √õ           \n");
+  gotoxy(45-i,10); cputs("  √õ       √õ     √õ  √õ       √õ  √õ√ü√ü√ü√ü√ü      \n");
+  gotoxy(45-i,11); cputs("  √õ       √õ     √õ  √õ       √õ  √õ           \n");
+  gotoxy(45-i,12); cputs("  √õ√ú√ú√ú√ú√ú  √õ√ú√ú√ú√ú√ú√õ  √õ       √õ  √õ√ú√ú√ú√ú√ú    \n\n");
  }
   cout<<"\n\n\t\t\t IT'S OUR PLEASURE\n\n\t\t\t\t\tTO SERVE YOU ";
   for(i=20;i<58;i++)
@@ -854,9 +854,9 @@ void output3()
  {
   delay(20);
   textcolor(13);
-  gotoxy(i,18);cprintf("      …ÕÕÕÕª       ");
-  gotoxy(i,19);cprintf("   …ÕÕº    »Õª     ");
-  gotoxy(i,20);cprintf("   »ÕoÕÕÕÕooÕº     ");
+  gotoxy(i,18);cprintf("      √â√ç√ç√ç√ç¬ª       ");
+  gotoxy(i,19);cprintf("   √â√ç√ç¬º    √à√ç¬ª     ");
+  gotoxy(i,20);cprintf("   √à√ço√ç√ç√ç√çoo√ç¬º     ");
  }
  textcolor(13);
  gotoxy(47,19);cin>>choice1;
@@ -886,9 +886,9 @@ void output3()
     {
      delay(40);
      textcolor(13);
-     gotoxy(i,18);cprintf("      …ÕÕÕÕª       ");
-     gotoxy(i,19);cprintf("   …ÕÕº    »Õª     ");
-     gotoxy(i,20);cprintf("   »ÕoÕÕÕÕooÕº     ");
+     gotoxy(i,18);cprintf("      √â√ç√ç√ç√ç¬ª       ");
+     gotoxy(i,19);cprintf("   √â√ç√ç¬º    √à√ç¬ª     ");
+     gotoxy(i,20);cprintf("   √à√ço√ç√ç√ç√çoo√ç¬º     ");
     }
     textcolor(13);
     gotoxy(47,19);cin>>choice2;
@@ -921,25 +921,25 @@ void close()
  textcolor(11);
  for(int i=1;i<7;i++)
  {
-  gotoxy(i,5);  cputs("       ﬂﬂﬂ€ﬂﬂﬂ  €    €  €ﬂﬂﬂﬂ€ ");
-  gotoxy(i,6);  cputs("          €     €    €  €    € ");
-  gotoxy(i,7);  cputs("          €     €‹‹‹‹€  €    € ");
-  gotoxy(i,8);  cputs("          €     €    €  €ﬂﬂﬂﬂ€ ");
-  gotoxy(i,9);  cputs("          €     €    €  €    € ");
-  gotoxy(i,10); cputs("          ﬂ     ﬂ    ﬂ  ﬂ    ﬂ ");
+  gotoxy(i,5);  cputs("       √ü√ü√ü√õ√ü√ü√ü  √õ    √õ  √õ√ü√ü√ü√ü√õ ");
+  gotoxy(i,6);  cputs("          √õ     √õ    √õ  √õ    √õ ");
+  gotoxy(i,7);  cputs("          √õ     √õ√ú√ú√ú√ú√õ  √õ    √õ ");
+  gotoxy(i,8);  cputs("          √õ     √õ    √õ  √õ√ü√ü√ü√ü√õ ");
+  gotoxy(i,9);  cputs("          √õ     √õ    √õ  √õ    √õ ");
+  gotoxy(i,10); cputs("          √ü     √ü    √ü  √ü    √ü ");
 
-  gotoxy(42-i,5);  cputs("   €ﬂª    €  €   ‹ﬂ             \n");
-  gotoxy(42-i,6);  cputs("   € ﬂª   €  € ‹ﬂ               \n");
-  gotoxy(42-i,7);  cputs("   €  ﬂª  €  €€                 \n");
-  gotoxy(42-i,8);  cputs("   €   ﬂª €  €ﬂ‹                \n");
-  gotoxy(42-i,9);  cputs("   €    ﬂª€  €  ﬂ‹              \n");
-  gotoxy(42-i,10); cputs("   ﬂ     ﬂﬂ  ﬂ    ﬂ         \n\n\n");
+  gotoxy(42-i,5);  cputs("   √õ√ü¬ª    √õ  √õ   √ú√ü             \n");
+  gotoxy(42-i,6);  cputs("   √õ √ü¬ª   √õ  √õ √ú√ü               \n");
+  gotoxy(42-i,7);  cputs("   √õ  √ü¬ª  √õ  √õ√õ                 \n");
+  gotoxy(42-i,8);  cputs("   √õ   √ü¬ª √õ  √õ√ü√ú                \n");
+  gotoxy(42-i,9);  cputs("   √õ    √ü¬ª√õ  √õ  √ü√ú              \n");
+  gotoxy(42-i,10); cputs("   √ü     √ü√ü  √ü    √ü         \n\n\n");
 
-  gotoxy(i+11,12); cputs("      ﬂª     €  €ﬂﬂﬂﬂ€  €    €  ");
-  gotoxy(i+11,13); cputs("       ﬂª   €   €    €  €    €  ");
-  gotoxy(i+11,14); cputs("        ﬂª €    €    €  €    €  ");
-  gotoxy(i+11,15); cputs("         ﬂ€     €    €  €    €  ");
-  gotoxy(i+11,16); cputs("          €     €‹‹‹‹€  €‹‹‹‹€  ");
+  gotoxy(i+11,12); cputs("      √ü¬ª     √õ  √õ√ü√ü√ü√ü√õ  √õ    √õ  ");
+  gotoxy(i+11,13); cputs("       √ü¬ª   √õ   √õ    √õ  √õ    √õ  ");
+  gotoxy(i+11,14); cputs("        √ü¬ª √õ    √õ    √õ  √õ    √õ  ");
+  gotoxy(i+11,15); cputs("         √ü√õ     √õ    √õ  √õ    √õ  ");
+  gotoxy(i+11,16); cputs("          √õ     √õ√ú√ú√ú√ú√õ  √õ√ú√ú√ú√ú√õ  ");
   }
   delay(1000);
   exit(0);
