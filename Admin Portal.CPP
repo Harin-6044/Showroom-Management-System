@@ -174,9 +174,9 @@ if(pass==2002||pass==3003||pass==5005)
      {
       delay(40);
       textcolor(13);
-      gotoxy(i,18);cprintf("      ÉÍÍÍÍ»       ");
-      gotoxy(i,19);cprintf("   ÉÍÍ¼    ÈÍ»     ");
-      gotoxy(i,20);cprintf("   ÈÍoÍÍÍÍooÍ¼     ");
+      gotoxy(i,18);cprintf("      Ã‰ÃÃÃÃÂ»       ");
+      gotoxy(i,19);cprintf("   Ã‰ÃÃÂ¼    ÃˆÃÂ»     ");
+      gotoxy(i,20);cprintf("   ÃˆÃoÃÃÃÃooÃÂ¼     ");
      }
       textcolor(13);
       gotoxy(48,19);cin>>opt1;
