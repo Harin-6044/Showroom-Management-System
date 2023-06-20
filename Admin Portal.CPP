@@ -5,6 +5,7 @@
 #include<fstream.h>
 #include<stdio.h>
 #include<string.h>
+
 //************
 //ADMIN PORTAL
 //************
@@ -23,6 +24,7 @@ class car
   return model;
  }
 }c1;
+
 void car::modifymod()
 {
  fstream file("ADD_MODEL.DAT",ios::in|ios::out|ios::app);
@@ -114,14 +116,6 @@ cin>>ch;
 fout.close();
 }
 
-
-
-
-//
-//
-//
-//
-//
 void main()
 {
 clrscr();
@@ -201,3 +195,4 @@ if(pass==2002||pass==3003||pass==5005)
  getch();
 }
 }
+
