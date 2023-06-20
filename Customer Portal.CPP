@@ -4,7 +4,7 @@
 #include<process.h>
 #include<fstream.h>
 #include<stdio.h>
-//void custport()
+
 class car
 {
  public:
@@ -132,16 +132,25 @@ void main()
  gotoxy(48,19);cin>>opt1;
  switch(opt1)
  {
-  case 1:clrscr();
-	 view_mod();
-	 break;
-  case 2:clrscr();
-	 ser_book();
-	 break;
-  case 3:clrscr();
-	 exit(0);
-	 break;
-  default:cout<<"\n\n\t\t\t\t THANK YOU";
+  case 1:{
+          clrscr();
+	  view_mod();
+	  break;
+         }
+  case 2:{
+          clrscr();
+	  ser_book();
+	  break;
+         }
+  case 3:{
+          clrscr();
+	  exit(0);
+	  break;
+         }
+  default:{
+           cout<<"\n\n\t\t\t\t THANK YOU";
+          }
  }
  getch();
 }
+
